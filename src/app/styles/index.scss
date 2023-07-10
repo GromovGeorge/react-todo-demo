@@ -1,0 +1,32 @@
+@import './normalize.scss';
+
+:root {
+  --color-primary: #222;
+  --color-accent: #bebebe;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.__layout {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.title {
+  margin-bottom: 20px;
+}
